@@ -296,9 +296,28 @@ footer {
   height: 50px;
 }
 .contact .fa-map-marker{
-  list-style-position:inside;
-  background: url(loc.png);
-
+  list-style-type: none;
+  background: url(loc.png) no-repeat center;
+  width: 20px;
+  height: 18px;
+}
+.contact .fa-qq{
+  list-style-type: none;
+  background: url(gmail.png) no-repeat center;
+  width: 20px;
+  height: 18px;
+}
+.contact .fa-envelope{
+  list-style-type: none;
+  background: url(mail-slide.png) no-repeat center;
+  width: 20px;
+  height: 18px;
+}
+.contact .fa-globe{
+  list-style-type: none;
+  background: url(global.png) no-repeat center;
+  width: 20px;
+  height: 18px;
 }
 @media ( max-width: 980px ) {
   .skills {
