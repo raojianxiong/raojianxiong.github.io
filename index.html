@@ -43,5 +43,10 @@ layout: default
     </ol>
 
     {% include pagination.html %}
-    <audio src="assets/resume/palladio.mp3" height="0" width="0" autoplay="autoplay"  loop="1" hidden="true" /> 
+    <audio id="audio" src="assets/resume/palladio.mp3" height="0" width="0" autoplay="autoplay"  hidden="true" /> 
   </div>
+  $(function(){
+
+    $("#audio")[0].play();
+
+})
