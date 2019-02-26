@@ -10,9 +10,9 @@ $(window).load(function(){
 $(function(){
     jQuery(document).ready(function() {
 		$('body').backstretch([
-	 		 "https://wirjx.top/assets/resume/jianxiongrao_files/tm-bg-slide-1.jpg", 
-	 		 "https://wirjx.top/assets/resume/jianxiongrao_files/tm-bg-slide-2.jpg",
-			 "https://wirjx.top/assets/resume/jianxiongrao_files/tm-bg-slide-3.jpg"
+	 		 "./jianxiongrao_files/tm-bg-slide-1.jpg", 
+	 		 "./jianxiongrao_files/tm-bg-slide-2.jpg",
+			 "./jianxiongrao_files/tm-bg-slide-3.jpg"
 	 			], 	{duration: 3200, fade: 1300});
 		});
 })
